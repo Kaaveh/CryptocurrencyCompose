@@ -3,7 +3,7 @@ package ir.kaaveh.cryptocurrencycompose.data.remote.dto
 import com.google.gson.annotations.SerializedName
 import ir.kaaveh.cryptocurrencycompose.domain.model.Coin
 
-data class CoinDto(
+data class CoinDTO(
     val id: String,
     @SerializedName("is_active")
     val isActive: Boolean,
@@ -15,7 +15,7 @@ data class CoinDto(
     val type: String
 )
 
-fun CoinDto.toCoin(): Coin = Coin(
+fun CoinDTO.toCoin(): Coin = Coin(
     id = id,
     isActive = isActive,
     name = name,
