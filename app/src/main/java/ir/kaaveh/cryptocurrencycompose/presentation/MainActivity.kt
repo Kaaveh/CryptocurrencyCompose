@@ -9,7 +9,6 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import dagger.hilt.android.AndroidEntryPoint
-import ir.kaaveh.cryptocurrencycompose.presentation.coin_detail.CoinDetailState
 import ir.kaaveh.cryptocurrencycompose.presentation.coin_detail.CoinDetailScreen
 import ir.kaaveh.cryptocurrencycompose.presentation.coin_list.CoinListScreen
 import ir.kaaveh.cryptocurrencycompose.presentation.ui.theme.CryptocurrencyComposeTheme

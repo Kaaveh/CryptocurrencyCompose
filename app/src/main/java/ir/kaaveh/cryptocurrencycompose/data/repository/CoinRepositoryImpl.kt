@@ -1,8 +1,6 @@
 package ir.kaaveh.cryptocurrencycompose.data.repository
 
 import ir.kaaveh.cryptocurrencycompose.data.remote.CoinPaprikaAPI
-import ir.kaaveh.cryptocurrencycompose.data.remote.dto.CoinDTO
-import ir.kaaveh.cryptocurrencycompose.data.remote.dto.CoinDetailDTO
 import ir.kaaveh.cryptocurrencycompose.domain.repository.CoinRepository
 import javax.inject.Inject
 
