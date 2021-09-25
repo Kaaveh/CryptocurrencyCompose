@@ -1,9 +1,9 @@
 package ir.kaaveh.cryptocurrencycompose.domain.repository
 
-import ir.kaaveh.cryptocurrencycompose.data.remote.dto.CoinDetailDTO
-import ir.kaaveh.cryptocurrencycompose.data.remote.dto.CoinDTO
+import ir.kaaveh.cryptocurrencycompose.domain.model.Coin
+import ir.kaaveh.cryptocurrencycompose.domain.model.CoinDetail
 
 interface CoinRepository {
-    suspend fun getCoins(): List<CoinDTO>
-    suspend fun getCoinById(coinId: String): CoinDetailDTO
+    suspend fun getCoins(): List<Coin>
+    suspend fun getCoinById(coinId: String): CoinDetail
 }
